@@ -1,0 +1,96 @@
+*{
+	font-family: sans-serif;
+	padding: 0px;
+	margin: 0px;
+	line-height: 1.5em;
+}
+
+.header{
+	display: flex;
+	background: rgb(242, 242, 242);
+	justify-content: space-between;
+	padding-left: 25px;
+	padding-right: 150px;
+	align-items: center;
+
+
+}
+
+.header ul li{
+	width: 85px;
+	
+	padding: 15px;
+
+	list-style: none;
+	justify-content: center;
+}
+.header ul{
+	display: inline-flex;
+}
+
+#logo{
+	padding: 15px;
+	padding-left: 200px;
+	font-family: "Oswald", sans-serif;
+	font-size: 30px;
+	
+	
+}
+.header ul li:hover{
+	background: white;
+
+}
+.content{
+	
+		
+	margin-left: 25px;
+}
+
+.body{
+
+
+	width: 70%;
+	display: grid;
+	margin: 15px auto;
+	grid-template-rows: auto auto;
+	grid-template-columns: 50% 20%;
+	grid-column-gap: 15px;
+	justify-content: center;
+}
+
+.body-header{
+font-size: 30px;
+}
+
+.body-header-sub{
+	padding-top: 7px;
+	font-weight: 200;
+	font-style: italic;
+	margin-bottom: 15px;
+	font-size: 12px;
+
+}
+ul li{
+	padding-bottom: 7px;
+}
+h2{
+	margin: 10px;
+	margin-left: 0;
+}
+
+.sidebar{
+	 border: 1px solid black;
+	 padding: 5px 10px;
+	 height: 300px;
+
+}
+.side-text{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-weight: 500;
+
+}
+.side-text:hover{
+	
+	text-decoration: underline;
+}
